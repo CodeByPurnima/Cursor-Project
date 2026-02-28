@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CursorGothic", system-ui, sans-serif; 
+
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #14120b;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 100px;
+    }
+    
+
+.button{
+    padding: 4px;
+    margin: 2px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+}
+#btn1{
+    width: 60px;
+    border: 1px solid #2a2a2a;
+    margin-left: 5px;
+    background-color: #14120b;
+    color: #ffffff;
+
+}
+
+#btn2{
+    background-color: whitesmoke;
+    
+}
+body{
+    background-color: #14120b;
+    
+}
+#navbar2 {
+    display: flex;
+    gap: 20px;
+    font-family:"CursorGothic", system-ui, sans-serif; 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "CursorGothic", system-ui, sans-serif; 
+}
+.navbar3 a, .navbar3 .button{
+    margin-right: 10px;
+}
+.div{
+    display: flex;
+    margin-left: 146px;
+    width: 28%;
+    color: #ffffff;
+    margin-top: 2px;
+    
+}
+#Top{
+    color: #ffffff;
+    margin-left: 140px;
+    margin-top: 120px;
+    font-size: 30px;
+    width: 34%;
+    font-family: "CursorGothic", system-ui, sans-serif;
+    font-weight: 400;
+    letter-spacing: -2px; 
+}
+#btn3{
+    border-radius: 30px;
+    margin-left: 140px;
+    padding: 10px;
+    font-size: 16px ;
+    cursor: pointer;
+}
+.arrow{
+    font-size: 18px;
+    line-height: 1;
+    border-radius: 100px;
+
+}
+.image{
+    text-align: center;
+}
+.CursorLogo{
+    margin-top: 10px;
+}
+.trust{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.Box-grid{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 0px;
+    margin: 0px auto;
+
+    
+}
+.box{
+    background-color: #1B1913;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+
+}
+.big-box2, .big-box3, .big-box4{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #1B1913;
+    width: 80%;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 4px;
+    align-items: center;
+}
+.agentic-text{
+    font-size: larger;
+    letter-spacing: -1px;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    padding: 14px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.agentic .agentic-text1, .autocomplete .auto-text1, .github .github-text1{
+    font-family: "CursorGothic", system-ui, sans-serif;
+    font-size: x-large;
+    font-weight: 100;
+    color: rgb(249, 241, 241)  
+}
+
+.agentic .agentic-text2, .autocomplete .auto-text2, .github .github-text2{
+    font-family: "CursorGothic", system-ui, sans-serif;
+    font-size: 21px;
+    font-weight: 500;   
+    color: #9A9997;
+    line-height: 24px;
+}
+
+.agentic .box-link2, .autocomplete .box-link3, .github .box-link4{
+    color: #f04a08;
+    font-family: "CursorGothic", system-ui, sans-serif;
+    font-size: medium;
+}
+
+.Reviews-heading h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: "CursorGothic", system-ui, sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.reviews{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto; 
+  height: 480px;
+}
+
+.review{
+    background-color: #1B1913;
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+}
+ 
+.imageAndName{
+    display: flex;
+    align-items: flex-center;
+    gap: 4px;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.frontierHeading, .changelogHeading{
+    margin-left: 160px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-family: "CursorGothic", system-ui, sans-serif;
+    font-weight: 200;
+    font-size: small;
+}
+.frontierFlex{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 10px;
+}
+.frontier{
+    padding: 20px;
+    background-color: #1B1913;
+    width: 400px;
+    border-radius: 6px;
+}
+.frontier img{
+    margin-top: 20px;
+}
+.frontier .p2{
+    color: #9A9997;
+    font-size: medium;
+}
+.frontier .p1{
+    color: #ffffff;
+
+}
+.frontier a{
+    color: #f04a08;
+    margin-top: 100px;
+
+}
+.changelogFlex{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 10px auto;
+    gap: 10px;
+}
+.changelog{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #1B1913;
+    flex: 1;
+    border-radius: 4px;
+}
+.changelog .date{
+    color: #9A9997;
+    font-family: "CursorGothic", system-ui, sans-serif;
+}
+.changelog .newAdded{
+    color: #ffffff;
+    margin-top: 10px;
+}
+.whatsnew a{
+    margin-left: 160px;
+    color: #f04a08;
+    margin-top: 20px;
+}
+.joininfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 100px auto;
+    background-color: #1B1913;
+    padding: 20px;
+    gap: 40px;
+}
+.joininfo .joindescription p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size:x-large;
+}
+.joininfo a{
+    color: #f04a08;
+    margin-top: 20px;
+    font-size: large;
+}
+.recentheading{
+    font-size:x-small;
+    color: #ffffff;
+}
+.recentHighlights{
+    display: flex;
+    gap: 200px;
+    background-color: #1B1913;
+    margin-top: 150px;
+    font-family: "CursorGothic", system-ui, sans-serif; 
+}
+.recentheading{
+    margin-left: 160px;
+}
+.post{
+    padding: 20px;
+    background-color: #201E18;
+}
+.post{
+    margin-top: 10px;
+}
+.postline1{
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "CursorGothic", system-ui, sans-serif; 
+}
+.postline2{
+    color: #9A9997;
+    font-weight: 500;
+    font-family: "CursorGothic", system-ui, sans-serif; 
+}
+.postbutton a{
+    color: #f04a08;
+}
+.trycursor{
+    text-align: center;
+    margin-top: 100px;
+}
+.trycursor h1{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 80px;
+    font-family: "CursorGothic", system-ui, sans-serif; 
+}
+.trycursor button{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: none;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #1B1913;
+}
+.companydetails{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.product{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.row1{
+    color: #9A9997;
+    font-size: medium;
+}
+.row2{
+    font-size:16px;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.end p {
+  color: #9A9997;
+  margin-left: 150px;
+}
+
+.theme-toggle {
+  background-color: #26241e;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.theme-toggle button {
+  border: none;
+  background-color: transparent;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.theme-toggle button:first-child {
+  border: none;
+  background-color: transparent;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.theme-toggle button img {
+  filter: invert(0.4);
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #26241e;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+.end-right {
+  display: flex;
+  gap: 10px;
+  margin-right: 120px;
+}
+
+
+
+
