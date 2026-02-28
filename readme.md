@@ -1,0 +1,1 @@
+# This is my Cursor Project for ChaiCode peer reviews assignment.
